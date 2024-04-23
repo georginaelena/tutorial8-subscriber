@@ -22,3 +22,10 @@ Setelah menjalankan program sebanyak 5 kali menggunakan perintah `cargo run`, ju
 
 ![](https://i.imgur.com/IwPRxtT.png)
 
+# Reflection and Running at least three subscribers
+
+Ketika tiga subscriber dijalankan secara bersamaan dalam tiga konsol yang berbeda, terjadi pembagian pemrosesan yang merata di antara ketiganya. Hal ini memungkinkan pesan-pesan yang dikirim oleh subscriber untuk diproses lebih cepat secara keseluruhan. Meskipun publisher dijalankan sebanyak 10 kali, total antrian berkurang menjadi 15. Lonjakan dalam antrian di broker pesan juga menurun, menandakan adanya peningkatan dalam kinerja dan skalabilitas sistem secara keseluruhan.
+
+![](https://i.imgur.com/NEQiEw4.png)
+
+![](https://i.imgur.com/IGpTsUM.png)
